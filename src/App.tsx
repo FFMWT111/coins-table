@@ -87,15 +87,6 @@ function App() {
               btc={result.btc}
             />
           ))}
-        {/* {!loading &&
-          !showCache &&
-          sortedResults.map((result) => (
-            <ResultRow
-              key={result.offerValue}
-              providerNames={result.offerValue}
-              btc={result.btc}
-            />
-          ))} */}
       </div>
     </main>
   );
